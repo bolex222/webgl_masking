@@ -18,7 +18,7 @@ void main()
 
     // code here
     float mouse = distance(vec2(modelPosition.x, modelPosition.y), vec2(mouse.x, 1. - mouse.y) - 0.5);
-    modelPosition.z = mouse * -1.;
+    modelPosition.z = mouse * -0.7;
 
 
     vec4 viewPosition = viewMatrix * modelPosition;
