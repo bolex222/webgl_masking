@@ -17,8 +17,8 @@ export class MouseReactivePlan {
   constructor() {
     this.geometry = this.createPlan();
     const textureLoader = new TextureLoader();
-    const uv_gird = textureLoader.load('/uv_grid.png')
-    const mask = textureLoader.load('/mask.jpg')
+    const uv_gird = textureLoader.load('/webgl_masking/uv_grid.png')
+    const mask = textureLoader.load('/webgl_masking/mask.jpg')
     // uv_gird.colorSpace = SRGBColorSpace;
     this.material = new RawShaderMaterial({
       vertexShader,

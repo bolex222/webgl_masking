@@ -3,5 +3,6 @@ export default {
 	server: {
 		port: 3000
 	},
-	plugins: [glsl()]
+	plugins: [glsl()],
+	base: 'webgl_masking',
 }
